@@ -1,0 +1,39 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b8cf9"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b8cf9" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1b26" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="380" fill="#0d1117"/>
+  <rect width="1200" height="380" fill="url(#grid)"/>
+
+  <rect x="40" y="60" width="1120" height="2" fill="url(#lineGrad)"/>
+
+  <text x="600" y="195" font-family="Verdana, Arial, sans-serif" font-size="70" font-weight="900"
+        fill="url(#nameGrad)" text-anchor="middle" letter-spacing="4" filter="url(#glow)">RAKSHITHA NAGARAJ</text>
+
+  <text x="600" y="250" font-family="Consolas, 'Courier New', monospace" font-size="21"
+        fill="#9aa4b2" text-anchor="middle" letter-spacing="3">
+    COMPUTER VISION ENGINEER &#8226; GENAI BUILDER &#8226; ASPIRING PM
+  </text>
+
+  <rect x="40" y="300" width="1120" height="2" fill="url(#lineGrad)"/>
+</svg>

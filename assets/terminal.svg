@@ -1,0 +1,57 @@
+<svg width="900" height="480" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <linearGradient id="titlebar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e2030"/>
+      <stop offset="100%" stop-color="#1a1b26"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="892" height="472" rx="14" fill="#11121b" stroke="#2a2b3d" stroke-width="1.5"/>
+
+  <path d="M4 18 A14 14 0 0 1 18 4 H882 A14 14 0 0 1 896 18 V52 H4 Z" fill="url(#titlebar)"/>
+  <circle cx="34" cy="28" r="7" fill="#ff5f57"/>
+  <circle cx="58" cy="28" r="7" fill="#febc2e"/>
+  <circle cx="82" cy="28" r="7" fill="#28c840"/>
+  <text x="450" y="33" font-size="14" fill="#8b93a1" text-anchor="middle">rakshitha@dev &#8212; zsh</text>
+
+  <text x="34" y="95" font-size="18" fill="#7dd3fc">&#10095;</text>
+  <text x="58" y="95" font-size="18" fill="#e6edf3">cat profile.json</text>
+
+  <text x="34" y="140" font-size="18" fill="#f0c674">{</text>
+
+  <text x="58" y="175" font-size="17" fill="#a78bfa">"name"</text>
+  <text x="150" y="175" font-size="17" fill="#e6edf3">:</text>
+  <text x="164" y="175" font-size="17" fill="#7ee787">"Rakshitha Nagaraj"</text>
+  <text x="350" y="175" font-size="17" fill="#e6edf3">,</text>
+
+  <text x="58" y="210" font-size="17" fill="#a78bfa">"role"</text>
+  <text x="140" y="210" font-size="17" fill="#e6edf3">:</text>
+  <text x="154" y="210" font-size="17" fill="#7ee787">"Computer Vision &amp; GenAI Engineer"</text>
+  <text x="514" y="210" font-size="17" fill="#e6edf3">,</text>
+
+  <text x="58" y="245" font-size="17" fill="#a78bfa">"education"</text>
+  <text x="190" y="245" font-size="17" fill="#e6edf3">:</text>
+  <text x="204" y="245" font-size="17" fill="#7ee787">"Kyungpook National University, South Korea"</text>
+  <text x="204" y="270" font-size="17" fill="#e6edf3">,</text>
+
+  <text x="58" y="303" font-size="17" fill="#a78bfa">"exchange"</text>
+  <text x="180" y="303" font-size="17" fill="#e6edf3">:</text>
+  <text x="194" y="303" font-size="17" fill="#7ee787">"American University in Dubai, UAE"</text>
+  <text x="194" y="328" font-size="17" fill="#e6edf3">,</text>
+
+  <text x="58" y="361" font-size="17" fill="#a78bfa">"focus"</text>
+  <text x="148" y="361" font-size="17" fill="#e6edf3">:</text>
+  <text x="162" y="361" font-size="17" fill="#7ee787">"Bridging engineering and product thinking"</text>
+  <text x="162" y="386" font-size="17" fill="#e6edf3">,</text>
+
+  <text x="58" y="419" font-size="17" fill="#a78bfa">"goal"</text>
+  <text x="140" y="419" font-size="17" fill="#e6edf3">:</text>
+  <text x="154" y="419" font-size="17" fill="#7ee787">"APM / PM roles in Bangalore"</text>
+
+  <text x="34" y="450" font-size="18" fill="#f0c674">}</text>
+
+  <text x="34" y="465" font-size="18" fill="#7dd3fc">&#10095;</text>
+  <rect x="58" y="452" width="10" height="18" fill="#a78bfa">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

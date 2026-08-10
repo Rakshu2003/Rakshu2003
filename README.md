@@ -1,4 +1,4 @@
-![banner](https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,100:E85D9C&height=200&section=header&text=Hi,%20I'm%20Rakshitha%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38)
+![banner](assets/banner.svg)
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=Rakshu2003&label=Profile%20Views&color=764ba2&style=flat-square">
@@ -6,10 +6,8 @@
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Computer+Vision+%26+GenAI+Engineer;NRF-Certified+Researcher;Silver+Award%2C+ASK%2FKIPS+2025;Aspiring+Product+Manager" alt="typing-svg">
+<img src="assets/terminal.svg" width="700">
 </p>
-
-Final-year CS student at Kyungpook National University, South Korea, with exchange experience at the American University in Dubai, UAE. I build the models that detect what's happening — and increasingly, the products that decide what to do about it.
 
 ---
 
